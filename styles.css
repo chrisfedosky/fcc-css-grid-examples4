@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 20px 1fr);
+  column-gap: 10px;
+}
+
+.grid-container3 div {
+  height: 100px;
+  background-color: darkblue;
+}
+
